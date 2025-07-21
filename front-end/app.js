@@ -52,7 +52,7 @@
     const valor = inputBusqueda.value.trim();
     let url = '';
 
-    if (!isNaN(valor)) {
+    if (valor !== '' && Number(valor) === Number(valor)) {
       // Buscar por ID
       url = `http://localhost:3000/temas/${valor}`;
     } else {
