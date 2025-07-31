@@ -35,7 +35,7 @@ GET http://localhost:3000/temas/1
 
 🔹 Buscar temas por artista (query)
 GET http://localhost:3000/temas?artista=keane
-(cambiar queen por el nombre del artista)
+(cambiar keane por el nombre del artista)
 
 En este enlace les dejo la explicacion de todo el tp de la api: https://www.youtube.com/watch?v=B-y5KJ4eFJU
 
